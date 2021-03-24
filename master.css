@@ -1,0 +1,32 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#root{
+  display: flex;
+  align-items: center;
+}
+.immagini{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-chevron-right{
+  font-size: 40px;
+  padding-left: 30px;
+}
+.fa-chevron-left{
+  font-size: 40px;
+  padding-right: 30px;
+}
+.fa-circle{
+  color: lightgrey;
+  margin: 50px 10px;
+}
+.slider i.active{
+  color: blue;
+}
